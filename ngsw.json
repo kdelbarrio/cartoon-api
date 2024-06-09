@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1717964597887,
+  "index": "/cartoon-api/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/cartoon-api/favicon.ico",
+        "/cartoon-api/index.html",
+        "/cartoon-api/main.421c263a147bd96e.js",
+        "/cartoon-api/manifest.webmanifest",
+        "/cartoon-api/polyfills.777bbedda3db642e.js",
+        "/cartoon-api/runtime.0e5bb1bd5f7c160d.js",
+        "/cartoon-api/styles.a06ec18cf5ba5e84.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Roboto:wght@300;400;500&amp;display=swap",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/[^/]*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/cartoon-api/assets/icons/icon-128x128.png",
+        "/cartoon-api/assets/icons/icon-144x144.png",
+        "/cartoon-api/assets/icons/icon-152x152.png",
+        "/cartoon-api/assets/icons/icon-192x192.png",
+        "/cartoon-api/assets/icons/icon-384x384.png",
+        "/cartoon-api/assets/icons/icon-512x512.png",
+        "/cartoon-api/assets/icons/icon-72x72.png",
+        "/cartoon-api/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "cartoon-api",
+      "patterns": [
+        "https:\\/\\/rickandmortyapi\\.com\\/api\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 2592000000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/cartoon-api/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/cartoon-api/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/cartoon-api/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/cartoon-api/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/cartoon-api/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/cartoon-api/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/cartoon-api/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/cartoon-api/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/cartoon-api/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/cartoon-api/index.html": "b6342233d5fdffffc92d38bdf5cbf66ffec4a0fd",
+    "/cartoon-api/main.421c263a147bd96e.js": "eefcd98481efefa2b7edb8e75bd2b99d5286e40d",
+    "/cartoon-api/manifest.webmanifest": "b69d11d276fbd786a20cdb8dd7bc95f425063514",
+    "/cartoon-api/polyfills.777bbedda3db642e.js": "9470bab8c78f6a37c90ad65829698d16b3bf4ebe",
+    "/cartoon-api/runtime.0e5bb1bd5f7c160d.js": "d597a7ce3f899699ab5afd5b130fb4e12ce91495",
+    "/cartoon-api/styles.a06ec18cf5ba5e84.css": "2ca0d6903a094bd3d0b852214db5ac187b22ca45"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
